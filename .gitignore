@@ -1,0 +1,24 @@
+# cache
+*/__pycache__
+
+# logs
+/logs
+
+# data
+/data/*.csv
+
+# test file
+test_model.py
+
+# model file
+model.pth
+
+# tensor board file
+runs/
+
+# model file
+*.pth
+
+# mac file
+.DS_Store
+

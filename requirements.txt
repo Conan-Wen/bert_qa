@@ -1,0 +1,9 @@
+# torch
+transformers==4.35.0
+pandas==2.1.2
+numpy==1.26.1
+tensorboard==2.15.1
+tqdm==4.66.1
+
+# For CUDA 11.8
+# pip install torch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu118 
