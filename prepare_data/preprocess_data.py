@@ -150,8 +150,8 @@ def main():
     os.makedirs("./data", exist_ok=True)
     
     filepath = {
-        "train": ["./prepare_data/dataset/jaquad_train.json", "./prepare_data/dataset/train-v2.0.json"],
-        "dev": ["./prepare_data/dataset/jaquad_dev.json", "./prepare_data/dataset/dev-v2.0.json"],
+        "train": ["./prepare_data/dataset/jaquad_train.json", "./prepare_data/dataset/train-v2.0.json", "./prepare_data/dataset/train-v1.1.json"],
+        "dev": ["./prepare_data/dataset/jaquad_dev.json", "./prepare_data/dataset/dev-v2.0.json", "./prepare_data/dataset/valid-v1.1.json"],
     }
     
     for data_set, data_path in filepath.items():
